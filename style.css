@@ -483,4 +483,11 @@ h2{
     margin: 0 10px; 
 }
 
+@keyframes blinkingEffect {
+    0%, 100% { opacity:1; }
+    50% { opacity:0; }
+}
+.blinking{
+    animation: blinkingEffect 1s infinite;
+}
 
