@@ -304,6 +304,7 @@ h2 {
 
 .card-text {
     color: #666;
+    
 }
 
 .accordion-wrapper {
@@ -489,5 +490,14 @@ h2{
 }
 .blinking{
     animation: blinkingEffect 1s infinite;
+}
+
+.card-body a {
+    text-decoration: none; 
+    color: #000;
+}
+
+.card-body a:hover {
+    text-decoration: none; 
 }
 
